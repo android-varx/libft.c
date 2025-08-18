@@ -1,3 +1,10 @@
 #include "libft.h"
 
-// TODO: Implement ft_tolower
+int ft_tolower(int c)
+{
+    if (c >= 'A' && c <= 'Z')
+    {
+        return (c + 32); 
+    }
+    return c;
+}
