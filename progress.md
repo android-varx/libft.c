@@ -3,9 +3,9 @@
 - [ ] ft_calloc.c
 - [x] ft_isalnum.c
 - [x] ft_isalpha.c
-- [ ] ft_isascii.c
+- [x] ft_isascii.c
 - [x] ft_isdigit.c
-- [ ] ft_isprint.c
+- [x] ft_isprint.c
 - [ ] ft_itoa.c
 - [ ] ft_memchr.c
 - [ ] ft_memcmp.c
