@@ -1,3 +1,14 @@
 #include "libft.h"
 
-// TODO: Implement ft_strdup
+char *ft_strdup(const char *s)
+{
+	char *dup;
+	size_t len;
+
+	len = ft_strlen(s);
+	dup = malloc(sizeof(char) * (len + 1));
+	if (!dup)
+		return (NULL);
+	ft_memcpy(dup, s, len + 1);
+	return (dup);
+}
